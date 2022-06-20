@@ -124,13 +124,13 @@ human.breathes();
 //  action 3: the human programs
 human.program();
 //  10)
-//  Noun:      car
-//  action 1:  the car brakes
-car.brake();
-//  action 2:  the car accelerates
-car.accelerate();
-//  action 3: the car turns left
-car.turnLeft();
+//  Noun:      volumeKnob
+//  action 1:  the volumeKnob rotates clockwise
+volumeKnob.rotateRight();
+//  action 2:  the volumeKnob rotates counter-clockwise
+volumeKnob.rotateLeft();
+//  action 3: the volume Knob increases the gain
+volumeKnob.increaseGain();
 
 
 #endif
