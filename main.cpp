@@ -52,85 +52,85 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:      player
+//  action 1:  the player moves
+player.move();
+//  action 2:  the player jumps
+player.jump();
+//  action 3:  the player shoots
+player.shoot();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:      cat    
+//  action 1:  the cat sleeps
+cat.sleep();
+//  action 2:  the cat eats
+cat.eat();
+//  action 3:  the cat chases
+cat.chase();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:      customer
+//  action 1:  the customer buys
+customer.buy();
+//  action 2: the customer enters a Pin
+customer.enterPin();
+//  action 3:  the customer pays
+customer.pay();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:     enemy
+//  action 1: the enemy spawnes
+enemy.spawn();
+//  action 2: the enemy collides
+enemy.collide();
+//  action 3: the enemy despawns
+enemy.despawn();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:      computer
+//  action 1:  the computer boots up
+computer.bootUp();
+//  action 2: the computer shuts down
+computer.shutDown();
+//  action 3: the computer outputs data
+computer.outputData();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:      program
+//  action 1: the program creates a new project
+program.createNewProject();
+//  action 2:  the programm saves data
+program.saveData();
+//  action 3:  the programm terminates
+program.terminate();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:      gainSlider
+//  action 1:  the gainSlider moves
+gainSlider.move();
+//  action 2: the gainSlider increases gain level
+gainSlider.increaseGain();
+//  action 3:  the gainSlider descreases gain level
+gainSlider.decreaseGain();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:      cdPlayer
+//  action 1:  the cdPlayer plays a track
+cdPlayer.playTrack();
+//  action 2:  the cdPlayer stops playing
+cdPlayer.stop();
+//  action 3: the cdPlayer skips a track
+cdPlayer.skipTrack();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:      human   
+//  action 1:  the human thinks
+human.think();
+//  action 2: the human breathes
+human.breathes();
+//  action 3: the human programs
+human.program();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:      volumeKnob
+//  action 1:  the volumeKnob rotates clockwise
+volumeKnob.rotateRight();
+//  action 2:  the volumeKnob rotates counter-clockwise
+volumeKnob.rotateLeft();
+//  action 3: the volume Knob increases the gain
+volumeKnob.increaseGain();
 
 
 #endif
